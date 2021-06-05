@@ -7,6 +7,10 @@ namespace Ahless\GladeBankTransfer\Helpers;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 
+/**
+ * Class Glade
+ * @package Ahless\GladeBankTransfer\Helpers
+ */
 class Glade
 {
 	private Client $client;

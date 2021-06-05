@@ -4,6 +4,10 @@ namespace Ahless\GladeBankTransfer;
 
 use Ahless\GladeBankTransfer\Helpers\Glade;
 
+/**
+ * Class GladeBankTransfer
+ * @package Ahless\GladeBankTransfer
+ */
 class GladeBankTransfer
 {
 	private Glade $glade;
