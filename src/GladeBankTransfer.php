@@ -42,7 +42,6 @@ class GladeBankTransfer
 		$payload = [
 			"action" => "verify",
 			"txnRef" => $txnRef
-
 		];
 
 		return $this->glade->sendRequest($payload, 'POST', '/', 'payment');

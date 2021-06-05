@@ -9,7 +9,6 @@ use GuzzleHttp\Exception\GuzzleException;
 
 class Glade
 {
-
 	private Client $client;
 
 	/**
@@ -25,7 +24,6 @@ class Glade
 			'mid' => $merchant_id,
 			'key' => $merchant_key
 		];
-
 		$this->client = new Client([
 			'url' => $base_url
 		]);
@@ -54,7 +52,7 @@ class Glade
 
 			return json_decode($response->getBody(), true);
 		} catch (GuzzleException $e) {
-			// throw exception
+			// return exception
 			return [
 				'code' => $e->getCode(),
 				'error' => $e->getMessage(),
