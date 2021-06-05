@@ -1,9 +1,9 @@
-# Very short description of the package
+# Glade Bank Transfer
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/iamahless/glade-bank-transfer.svg?style=flat-square)](https://packagist.org/packages/iamahless/glade-bank-transfer)
 [![Total Downloads](https://img.shields.io/packagist/dt/iamahless/glade-bank-transfer.svg?style=flat-square)](https://packagist.org/packages/iamahless/glade-bank-transfer)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+GladePay is the leading digital payment provider with focus across African countries, dedicated to creating simple payment solution for African businesses. We are focused on building trust between buyers and sellers by providing simple solutions using the payment options (online or offline) preferred with complete security and efficiency.
 
 ## Installation
 
