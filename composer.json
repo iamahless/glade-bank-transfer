@@ -1,0 +1,43 @@
+{
+  "name": "iamahless/glade-bank-transfer",
+  "description": "Process payments via the Bank Transfer option",
+  "keywords": [
+    "iamahless",
+    "glade-bank-transfer"
+  ],
+  "homepage": "https://github.com/iamahless/glade-bank-transfer",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alexander Garuba",
+      "email": "alexandergaruba96@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.3",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ahless\\GladeBankTransfer\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ahless\\GladeBankTransfer\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests/BankTransferTest.php",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage tests/BankTransferTest.php"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
